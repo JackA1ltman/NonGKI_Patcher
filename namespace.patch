@@ -1,5 +1,5 @@
---- namespaceo.c	2025-06-05 14:43:34.873736356 +0800
-+++ namespace.c	2025-06-05 14:52:08.953807855 +0800
+--- a/fs/namespace.c
++++ b/fs/namespace.c
 @@ -26,10 +26,37 @@
  #include <linux/bootmem.h>
  #include <linux/task_work.h>

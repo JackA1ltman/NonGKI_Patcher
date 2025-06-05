@@ -1,5 +1,5 @@
---- task_mmuo.c	2025-06-05 14:43:34.873736356 +0800
-+++ task_mmu.c	2025-06-05 14:52:08.957807855 +0800
+--- a/fs/proc/task_mmu.c
++++ b/fs/proc/task_mmu.c
 @@ -20,6 +20,8 @@
  #include <linux/uaccess.h>
  #include <linux/mm_inline.h>

@@ -1,5 +1,5 @@
---- schedo.h	2025-06-05 14:43:34.877736356 +0800
-+++ sched.h	2025-06-05 14:46:40.665776300 +0800
+--- a/include/linux/sched.h
++++ b/include/linux/sched.h
 @@ -1484,7 +1484,11 @@
  #endif
  
