@@ -1,0 +1,11 @@
+--- task_mmuo.c	2025-06-05 14:43:34.873736356 +0800
++++ task_mmu.c	2025-06-05 14:52:08.957807855 +0800
+@@ -20,6 +20,8 @@
+ #include <linux/uaccess.h>
+ #include <linux/mm_inline.h>
+ #include <linux/pkeys.h>
++#ifdef CONFIG_KSU_SUSFS_SUS_KSTAT
++#endif
+ 
+ #include <asm/elf.h>
+ #include <asm/tlb.h>
